@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# generated data (don't publish downloaded audio or transcripts)
+vector_db/
+downloads/
+transcript.txt
+
+#test
+test.py
